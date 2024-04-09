@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="col-lg-4 nav-full">
+        <div class="nav-menu">
+            <button class="nav-close">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <ul class="nav-menu-list">
+                <li class="nav-menu-item">
+                    <form action="" class="nav-search">
+                        <label for="search-input" class="search-label">
+                            <input type="text" class="search-input" id="search-input" placeholder="Search">
+                            <button class="search-submit">
+                            </button>
+                        </label>
+                        <i class="bi bi-search nav-search-icon"></i>
+                    </form>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Women</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Men</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Discover</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">OV Extra Sale</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  <div id="wrap">
+    <!-- Header -->
+    <header class="nav-nav">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center nav-inner">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 hide">
+                    <ul class="d-flex justify-content-around nav-main">
+                        <li class="nav-item">
+                            <button class="nav-button">Women</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-button">Men</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-button">Discover</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-button">OV Extra Sale</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 show">
+                    <button class="nav-list">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-center justify-content-center">
+                    <a href="/index.html" class="nav-logo" title="Outdoor Voices Logo">Outdoor Voices</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <ul class="d-flex justify-content-end align-items-center nav-ultility">
+                        <li class="nav-item"><i class="bi bi-search" title="Magnifying Glass Search Icon"></i></li>
+                        <li class="nav-item">
+                            <a href="/admin.html"><i class="bi bi-person nav-icon" title="Account Icon"></i></a>
+                        </li>
+                        <li class="nav-item"><i class="bi bi-heart" title="Heart Icon"></i></li>
+                        <li class="nav-item">
+                            <a href="/cart.html" class="nav-link"><i class="bi bi-bag" title="Shopping Bag Icon"></i></a>
+                        </i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main id="cart">
+        <div class="container-fluid">
+            <div class="cart-root d-flex flex-md-row flex-sm-column flex-column">
+                <div class="col-lg-7 col-md-6 px-lg-5 px-sm-3">
+                    <nav class="cart-nav mb-lg-4 mb-2">
+                        <a href="/index.html">
+                            <i class="bi bi-arrow-left"></i>
+                            Continue Shopping
+                        </a>
+                    </nav>
+                    <div class="cart-banner">
+                        <img src="img/cart-banner.webp" alt="Cart Banner">
+                    </div>
+                    <header class="cart-header">
+                        <div class="cart-header-content d-flex justify-content-between">
+                            
+                        </div>
+                    </header>
+                    <ul class="items-list">
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-6 cart-summarys">
+                    <div class="cart-summary d-flex p-4 p-lg-5">
+                        <form action="" class="summary-form">
+                            <div class="summary-card p-3 d-flex justify-content-center flex-column">
+                                <h2 class="summary-title">Order Summary</h2>
+                                <div class="summary-row d-flex justify-content-between align-items-center flex-wrap">
+                                    <h3 class="summary-details">Standard Shipping</h3>
+                                    <span class="summary-shipping-price">Free</span>
+                                    <span class="summary-store-message">If available, shop pickup options will display at checkout.</span>
+                                </div>
+                                <div class="summary-subtotal d-flex align-items-center justify-content-between flex-lg-wrap">
+                                    
+                                </div>
+                                <div class="summary-actions">
+                                    <button class="btn-full px-lg-4">
+                                        Continue to Checkout
+                                        <i class="bi bi-arrow-right"></i>
+                                    </button>
+                                    <use href="#shopify-svg__payments-shop-pay"></use>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <footer class="px-lg-5 px-sm-3">
+            <div class="footer-list d-flex flex-lg-column flex-sm-row">
+                <ul class="d-flex flex-grow-1 justify-content-lg-center flex-lg-row flex-column flex-lg-wrap">
+                    <li class="footer-item"><a href="">My Account</a></li>
+                    <li class="footer-item"><a href="">Shops</a></li>
+                    <li class="footer-item"><a href="">Sustainability</a></li>
+                    <li class="footer-item"><a href="">Press</a></li>
+                    <li class="footer-item"><a href="">The OV App</a></li>
+                    <li class="footer-item"><a href="">Careers</a></li>
+                    <li class="footer-item"><a href="">Accessibility</a></li>
+                    <li class="footer-item"><a href="">Returns</a></li>
+                </ul>
+                <ul class="d-flex flex-grow-1 justify-content-lg-center flex-lg-row flex-column flex-lg-wrap">
+                    <li class="footer-item"><a href="">OV Ambassador</a></li>
+                    <li class="footer-item"><a href="">Student Discount</a></li>
+                    <li class="footer-item"><a href="">Give $20, Get $20</a></li>
+                    <li class="footer-item"><a href="">Gift Cards</a></li>
+                    <li class="footer-item"><a href="">Privacy</a></li>
+                    <li class="footer-item"><a href="">Terms</a></li>
+                    <li class="footer-item"><a href="">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">©2023 Outdoor Voices</div>
+        </footer>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

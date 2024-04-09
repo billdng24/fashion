@@ -1,0 +1,130 @@
+@media (max-width: 960px){
+    /* Header */
+    .nav-inner {
+        padding: 0;
+    }
+    
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .nav-list {
+        font-size: 22px;
+        color: #202020;
+    }
+
+    .nav-ultility .nav-item:nth-child(-n+2){
+        display: none;
+    }
+
+    .nav-item i {
+        font-size: 16px;
+    }
+
+    .FeaturedCollections-root {
+        overflow-x: auto;
+    }
+
+    .FeaturedCollections {
+        flex-wrap: nowrap;
+    }
+
+    .FeaturedCollections-item {
+        margin: 0;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -.57px;
+    }
+
+    .collectionFilter-root {
+        padding: 10px 12px;
+    }
+
+    .collectionFilter-item:last-child {
+        margin-right: 0;
+    }
+
+    .product-render {
+        padding: 0;
+    }
+
+    .expander-collapser {
+        padding-left: 12px;
+    }
+
+    .withEmail-content {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .withEmail-side {
+        position: relative;
+    }
+
+    .withEmail-side:nth-child(2)::after{
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        height: 1px;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .collectionFilter-list:first-child .collectionFilter-item:nth-child(-n+5){
+        display: none;
+    }
+
+    .collectionFilter-list:first-child .collectionFilter-item:last-child {
+        display: block;
+    }
+}
+
+@media (max-width: 666px) {
+    .mobile-search {
+        display: block;
+    }
+
+    .textOnly-title{
+        font-size: 36px;
+    }
+
+    .productListItem-buttonsImages {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 961px) {
+    .show {
+        display: none;
+        width: 100%;
+    }
+
+    .email-captureLite-title {
+        font-size: 80px;
+    }
+
+    .productListItem-tedBadge img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .email-captureLite-title {
+        font-size: 80px;
+    }
+
+    .productListItem-tedBadge img {
+        width: 60%;
+    }
+}
